@@ -1,0 +1,139 @@
+body {
+    background: #333;
+    color: #fff;
+}
+.navbar, .conatct {
+    border-bottom: #088ed6 3px solid;
+    opacity: 0.8;
+}
+.home-section {
+    background: url('img/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.home-section .dark-overlay {
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.home-inner {
+    padding-top: 150px;
+}
+.card-form {
+    opacity: 0.8;
+}
+.home-inner .fa {
+    color: #008ed6;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+.section-about .fa {
+    color: #fff;
+    background-color: #008ed6;
+    padding: 5px;
+    border-radius: 5px;
+}
+.services-section,
+.section-about,
+.section-gallery {
+    padding: 100px 15px;
+    background-color: #fff;
+}
+.section-location {
+    padding: 0px 15px;
+    background-color: #fff;
+}
+.section-header {
+    background-color: #088ed6;
+}
+
+.services {
+    width: 100%;
+    background: #FFFFFF;
+    padding-top: 99px;
+    padding-bottom: 102px;
+}
+
+.icon_boxes_row {
+    margin-top: 100px;
+}
+
+.icon_box {
+    margin-bottom: 85px;
+}
+
+.icon_box_icon {
+    width: 49px;
+    height: 49px;
+}
+
+.icon_box_icon img {
+    max-width: 100%;
+}
+
+.icon_box_title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #404040;
+    padding-left: 25px;
+}
+
+.icon_box_text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #838383;
+    line-height: 2.14;
+    margin-top: 21px;
+}
+
+.services_button {
+    margin-top: 4px;
+}
+
+.contact_info {
+    position: absolute;
+    left: 15px;
+    top: calc(100% + 42px);
+    width: calc(100% - 30px);
+    background: #FFFFFF;
+    padding-top: 33px;
+    padding-bottom: 62px;
+    border-bottom: solid 4px #32c69a;
+    box-shadow: 0px 71px 81px rgba(4, 4, 4, 0.09);
+}
+
+.contact_info_title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: #404040;
+    line-height: 0.75;
+}
+.contact_info_list {
+    margin-top: 40px;
+    padding-top: 58px;
+}
+.contact_info_list ul {
+    list-style: none;
+}
+.contact_info_list ul li {
+    font-size: 14px;
+    font-weight: 500;
+    color: #828282;
+}
+
+.contact_info_list ul li:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.contact_info_list ul li span {
+    color: #404040;
+}
