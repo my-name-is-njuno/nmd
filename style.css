@@ -21,6 +21,7 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.4);
 }
+
 .home-inner {
     padding-top: 150px;
 }
@@ -136,4 +137,14 @@ body {
 
 .contact_info_list ul li span {
     color: #404040;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .home-section {
+    min-height: 800px;
+  }
+  .home-section .dark-overlay {
+    min-height: 800px;
+}
 }
